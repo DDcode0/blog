@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+header{
+    background-color: #222;
+    height: 10rem;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+main{
+    background-color: 	#FFA07A;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section{
+    background-color :#CD5C5C;
+    width: 80%;
+    height: 40%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main section span {
+    color: #eee;
+    font-size: 2.5rem;
+}
