@@ -47,10 +47,14 @@ footer{
     bottom: 0;
     height: 5rem;
     background-color:#008080 ;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5rem;
+    box-shadow: -35px 5px 15px 5px #000000;
+
+    
 }
 
 footer span{
