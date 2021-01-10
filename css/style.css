@@ -21,10 +21,11 @@ header{
 
 main{
     background-color: 	#FFA07A;
-    height: 20rem;
+    height: 40rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -33,6 +34,7 @@ main section{
     width: 80%;
     height: 40%; 
     display: flex;
+ 
     justify-content: center;
     align-items: center;
 
@@ -41,4 +43,13 @@ main section{
 main section span {
     color: #eee;
     font-size: 2.5rem;
+}
+
+
+main .section--2{
+    margin-top: 5rem;
+    height: 20rem;
+    border-radius: 5rem;
+    background-color: #999999;
+    box-shadow: -35px 5px 15px 5px #000000;
 }
